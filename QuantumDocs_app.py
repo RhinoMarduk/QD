@@ -42,7 +42,7 @@ if openai:
     if val.strip():
         OPENAI_KEY = val.strip()
     if OPENAI_KEY:
-        openai.api_key = OPENAI_KEY
+        openai.api_key = "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"
 
 # OCR helpers
 def ocr_tesseract(image: Image.Image) -> str:
