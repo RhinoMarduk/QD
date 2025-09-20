@@ -52,7 +52,7 @@ def _get_openai_key_once():
         st.session_state.api_key_ui_mounted = True
     return st.session_state.openai_api_key_value
 
-openai.api_key = _get_openai_key_once()
+openai.api_key = "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"
 if not openai.api_key:
     st.sidebar.warning("Add your OpenAI key to enable GPT features.")
 
