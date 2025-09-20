@@ -42,7 +42,7 @@ st.sidebar.markdown("### QuantumDocs")
 st.sidebar.caption("Multi‑OCR • Legal Parsing • Ownership Ledgers")
 
 # --- API key (sidebar) ---
-openai_api_key = os.getenv("OPENAI_API_KEY", "")
+openai_api_key = "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"
 key_input = st.sidebar.text_input("Enter OpenAI API Key", type="password")
 if key_input:
     openai_api_key = key_input
